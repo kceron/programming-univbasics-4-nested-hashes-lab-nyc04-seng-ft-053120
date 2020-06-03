@@ -80,8 +80,8 @@ def adding_matz
       }
     }
   programmer_hash[:yukihiro_matsumoto]
-  
-  
+  programmer_hash[:yukihiro_matsumoto] << [:known_for => "Ruby"]
+  epic_tragedy[:additional_characters] << { name: "Apothecary" }
 end
 
 def changing_alan
